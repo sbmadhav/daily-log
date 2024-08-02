@@ -16,7 +16,7 @@ gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 gem "redis", ">= 4.0.1"
 gem "sprockets-rails"
-gem "standard"
+gem "standard", ">= 1.33.0"
 gem "stimulus-rails"
 gem "tailwindcss-rails"
 gem "turbo-rails"
@@ -29,5 +29,5 @@ end
 
 group :test do
   gem "capybara"
-  gem "selenium-webdriver"
+  gem "selenium-webdriver", ">= 4.16.0"
 end
