@@ -9,7 +9,7 @@ gem "bootsnap", require: false
 gem "honeybadger"
 gem "image_processing", "~> 1.2"
 gem "importmap-rails"
-gem "inline_svg"
+gem "inline_svg", ">= 1.10.0"
 gem "jbuilder"
 gem "measured-rails"
 gem "pg", "~> 1.1"
